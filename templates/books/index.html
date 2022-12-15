@@ -5,16 +5,16 @@
 <div>
     <ul>
         <li>
-            {{ book.author.name }}
+            Author : {{ book.author.name }}
             <form action="/books/{{book.id}}/delete" method="post">
                 <input type="submit" value="Delete">
             </form>
         </li>
         <li>
-            {{ book.title }}
+            Title : {{ book.title }}
         </li>
         <li>
-            {{ book.genre }}
+            Genre : {{ book.genre }}
         </li>
     </ul>
 </div>
